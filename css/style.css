@@ -29,9 +29,11 @@
          background-image: url("/img/DaneWhitmanLarge.png");
          min-height: 480px
      }
+ }
 
-     /* show small image on smaller screens */
+ /* show small image on smaller screens */
  @media only screen and (min-width: 576px) and (max-width: 991px) {
      .header {
          background-image: url("/img/DaneWhitmanSmall.png");
-        }
+     }
+ }
